@@ -30,7 +30,7 @@ GameObject:
   m_TagString: enemie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &4000011597949886
 Transform:
@@ -119,6 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bbf32b34b0584f4f8fead4adff6c9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerObj: {fileID: 1000011798381272, guid: ea5a2a98eca0d1446940e478ef50f873, type: 2}
 --- !u!195 &195000010701505968
 NavMeshAgent:
   m_ObjectHideFlags: 1

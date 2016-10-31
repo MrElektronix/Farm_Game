@@ -17,6 +17,12 @@ public class enemie_script : MonoBehaviour
 
     void Update()
     {
+      //  if ()   //als je de player bereikt hebt, stop dan met lopen.
+        {
+
+        }
+
+
         if (!_playerObj)
             return;
 
