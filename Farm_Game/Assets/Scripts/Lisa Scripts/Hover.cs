@@ -11,7 +11,6 @@ public class Hover : Singleton<Hover>
         this.spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 	
-	// Update is called once per frame
 	void Update ()
     {
         FollowMouse();

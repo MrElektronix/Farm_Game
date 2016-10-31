@@ -25,6 +25,7 @@ GameObject:
   - 54: {fileID: 54000013726181304}
   - 114: {fileID: 114000011419037920}
   - 195: {fileID: 195000010701505968}
+  - 114: {fileID: 114000013392478850}
   m_Layer: 0
   m_Name: enemie
   m_TagString: enemie
@@ -119,7 +120,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bbf32b34b0584f4f8fead4adff6c9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerObj: {fileID: 1000011798381272, guid: ea5a2a98eca0d1446940e478ef50f873, type: 2}
+--- !u!114 &114000013392478850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011130908200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0171c3861af67b94ab3052745da4067f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToDestroy: {fileID: 1000011130908200}
 --- !u!195 &195000010701505968
 NavMeshAgent:
   m_ObjectHideFlags: 1
