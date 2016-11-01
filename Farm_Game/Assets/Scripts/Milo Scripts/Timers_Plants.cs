@@ -1,31 +1,74 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Timers_Plants : MonoBehaviour {
 
-    public float TomatoTime = 5;
-    public float CarrotTime = 2;
-    public float StrawberryTime = 10;
-    public float CornTime = 3;
+    public float TomatoTime;
+    public float CarrotTime;
+    public float StrawberryTime;
+    public float CornTime;
 
 	// Use this for initialization
 	void Start () {
-
+               
     }
 	
 	// Update is called once per frame
 	void Update () {
-        TomatoTime -= Time.deltaTime;
-        TomatoTime = Mathf.Round(TomatoTime * 100f) / 100f;
-        Timer();
+        /*
+        TomatoTime -= RoundTimer(TomatoTime);
+        CarrotTime -= RoundTimer(CarrotTime);
+        StrawberryTime -= RoundTimer(StrawberryTime);
+        CornTime -= RoundTimer(CornTime);
+        */
+        //Debug.Log(TomatoTime);
+        TomatoTime -= Timer(TomatoTime);
+        CarrotTime -= Timer(CarrotTime);
+        StrawberryTime -= Timer(StrawberryTime);
+        CornTime -= Timer(CornTime);
     }
-
-    void Timer()
+    /*
+    float RoundTimer(float plantTime)
     {
-        if (TomatoTime <= 0f) { TomatoTime = 0f; }
-        if (CarrotTime <= 0f) { CarrotTime = 0f; }
-        if(StrawberryTime <= 0f) { StrawberryTime = 0f; }
-        if (CornTime <= 0f) { CornTime = 0f;}
+        float oldPlantTime = plantTime;
+        //Debug.Log("oldPlantTime 1: " + oldPlantTime);
+        plantTime -= Time.deltaTime;
+        plantTime = Mathf.Round(plantTime * 100f) / 100f;
+        oldPlantTime -= plantTime;
+        //Debug.Log("oldPlantTime 2: " + oldPlantTime);
+       // return oldPlantTime;
+    }
+    */
+   
+
+      
+
+    float Timer(float plantTime)
+    {
+        float oldPlantTime = plantTime;
+        //float minutes;
+        //float seconds;
+        if (plantTime <= 0f)
+        {
+            plantTime = 0f;
+        }
+
+        plantTime -= Time.deltaTime;
+
+        /*
+        minutes = Mathf.Floor(plantTime / 60);
+        seconds = plantTime % 60;
+        if (seconds > 59) { seconds = 59; }
+        if (minutes < 0)
+        {
+            minutes = 0;
+            seconds = 0;
+        }
+        */
+        
+
+        oldPlantTime -= plantTime;
+
+        //Debug.Log(seconds);
 
         GameObject Cube = GameObject.Find("Cube");
         TimersUI_Plants timeruiplants = Cube.GetComponent<TimersUI_Plants>();
@@ -35,6 +78,8 @@ public class Timers_Plants : MonoBehaviour {
         timeruiplants.SetTimerTextPlants("Strawberry", StrawberryTime);
         timeruiplants.SetTimerTextPlants("Corn", CornTime);
 
+        return oldPlantTime;
+        
     }
 
 }
