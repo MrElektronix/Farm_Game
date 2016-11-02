@@ -6,7 +6,10 @@ public class enemie_script : MonoBehaviour
 
     private NavMeshAgent _navMeshAgent;
     private GameObject _playerObj;
+    public GameObject target;
+  
 
+    
     void Awake()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
