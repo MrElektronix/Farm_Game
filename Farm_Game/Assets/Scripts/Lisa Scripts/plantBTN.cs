@@ -9,11 +9,24 @@ public class plantBTN : MonoBehaviour {
     [SerializeField]
     private Sprite sprite;
 
+    [SerializeField]
+    private GameObject timer;
+
+
     public GameObject PlantPrefab
     {
         get
         {
             return plantPrefab;
+        }
+
+    }
+
+    public GameObject Timer
+    {
+        get
+        {
+            return timer;
         }
 
     }

@@ -12,10 +12,10 @@ public class gameManager : Singleton<gameManager>
         HandleEscape();
     }
 
-    public void pickPlant(plantBTN plantBtn)
+    public void pickPlant(plantBTN PlantBtn)
     {
-        this.clickedBTN = plantBtn;
-        Hover.Instance.Activate(plantBtn.Sprite);
+        this.clickedBTN = PlantBtn;
+        Hover.Instance.Activate(PlantBtn.Sprite);
     }
 
     public void BuyPlant()
