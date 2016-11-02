@@ -18,7 +18,7 @@ public class gameManager : Singleton<gameManager>
         Hover.Instance.Activate(plantBtn.Sprite);
     }
 
-    public void ButPlant()
+    public void BuyPlant()
     {
         Hover.Instance.Deactivate();
     }

@@ -27,22 +27,22 @@ public class TimersUI_Plants : MonoBehaviour {
 	}
 
     public void SetTimerTextPlants(string text, float time) {
-        //GameObject Player = GameObject.Find("Player");
-        //Timers_Plants timerplants = Player.GetComponent<Timers_Plants>();
+        GameObject Cube = GameObject.Find("Cube");
+        Timers_Plants timerplants = Cube.GetComponent<Timers_Plants>();
 
         switch (text)
         {
             case "Tomato":
-                _TomatoText.text = "Tomato: " + time.ToString();
+                _TomatoText.text = "Tomato " + timerplants.TomatoTime.ToString("0") + " sec.";
                 break;
             case "Carrot":
-                _CarrotText.text = "Carrot: " + time.ToString();
+                _CarrotText.text = "Carrot: " + timerplants.CarrotTime.ToString("0" ) + " sec.";
                 break;
             case "Strawberry":
-                _StrawberryText.text = "Strawberry: " + time.ToString();
+                _StrawberryText.text = "Strawberry: " + timerplants.StrawberryTime.ToString("0") + " sec.";
                 break;
             case "Corn":
-                _CornText.text = "Corn: " + time.ToString();
+                _CornText.text = "Corn: " + timerplants.CornTime.ToString("0") + " sec.";
                 break;
             default:
                 break;
