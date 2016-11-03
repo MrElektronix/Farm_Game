@@ -27,8 +27,8 @@ public class TimersUI_Plants : MonoBehaviour {
 	}
 
     public void SetTimerTextPlants(string text, float time) {
-        GameObject Cube = GameObject.Find("Cube");
-        Timers_Plants timerplants = Cube.GetComponent<Timers_Plants>();
+        GameObject timecontroller = GameObject.Find("TimeController");
+        Timers_Plants timerplants = timecontroller.GetComponent<Timers_Plants>();
 
         switch (text)
         {

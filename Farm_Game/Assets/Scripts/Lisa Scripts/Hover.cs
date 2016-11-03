@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Hover : Singleton<Hover>
 {
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
 	// Use this for initialization
 	void Start ()

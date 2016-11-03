@@ -70,8 +70,8 @@ public class Timers_Plants : MonoBehaviour {
 
         //Debug.Log(seconds);
 
-        GameObject Cube = GameObject.Find("Cube");
-        TimersUI_Plants timeruiplants = Cube.GetComponent<TimersUI_Plants>();
+        GameObject timecontroller = GameObject.Find("TimeController");
+        TimersUI_Plants timeruiplants = timecontroller.GetComponent<TimersUI_Plants>();
 
         timeruiplants.SetTimerTextPlants("Tomato", TomatoTime);
         timeruiplants.SetTimerTextPlants("Carrot", CarrotTime);

@@ -22,7 +22,7 @@ public class plantPlacement : MonoBehaviour {
     {
 
         GameObject tower = (GameObject)Instantiate(gameManager.Instance.clickedBTN.PlantPrefab, transform.position, Quaternion.identity);
-        GameObject times = (GameObject)Instantiate(gameManager.Instance.clickedBTN.Timer, transform.position, Quaternion.identity);
+       
         //tower.GetComponent<SpriteRenderer>().sortingOrder = GridPosition.Y;
 
         //tower.transform.SetParent(transform);
