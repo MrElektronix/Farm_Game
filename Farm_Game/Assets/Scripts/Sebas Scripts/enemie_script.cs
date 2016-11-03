@@ -7,15 +7,12 @@ public class enemie_script : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     private GameObject _playerObj;
     public GameObject target;
-  
 
-    
-    void Awake()
+    void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _playerObj = GameObject.FindGameObjectWithTag("Player");
-
-
+        GameObject[] possibleTargets = GameObject.FindGameObjectsWithTag("Player");
+        target = possibleTargets[Random.Range(0, possibleTargets.Length - 1)];
     }
 
     void Update()
@@ -24,13 +21,9 @@ public class enemie_script : MonoBehaviour
         {
 
         }
-
-
-        if (!_playerObj)
-            return;
-
-        _navMeshAgent.SetDestination(_playerObj.transform.position);
-        transform.LookAt(_playerObj.transform.position);
+        //Debug.Log(target.transform.position);
+        _navMeshAgent.SetDestination(target.transform.position);
+        transform.LookAt(target.transform.position);
 
     }
 }

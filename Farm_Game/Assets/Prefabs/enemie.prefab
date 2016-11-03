@@ -32,7 +32,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000011597949886
 Transform:
   m_ObjectHideFlags: 1
@@ -141,7 +141,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1000011130908200}
   m_Enabled: 1
   m_Radius: 0.5
-  m_Speed: 1
+  m_Speed: 6
   m_Acceleration: 92
   avoidancePriority: 50
   m_AngularSpeed: 120
