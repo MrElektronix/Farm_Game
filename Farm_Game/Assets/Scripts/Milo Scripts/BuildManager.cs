@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class BuildManager : MonoBehaviour {
     public static BuildManager instance;
@@ -14,15 +13,20 @@ public class BuildManager : MonoBehaviour {
     }
 
     public GameObject tomatoPlant;
+    public GameObject carrotPlant;
+    public GameObject strawberryPlant;
+    public GameObject cornPlant;
 
-    void Start() {
-        plantToPlant = tomatoPlant;
-    }
 
     private GameObject plantToPlant;
 
     public GameObject GetPlantToPlant()
     {
         return plantToPlant;
+    }
+
+    public void SetPlantToPlant(GameObject plant)
+    {
+        plantToPlant = plant;
     }
 }
