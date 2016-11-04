@@ -49,8 +49,8 @@ public class Node : MonoBehaviour {
             return;
         }
 
-        GameObject turretToBuild = BuildManager.instance.GetPlantToPlant();
-        _plant = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
+        GameObject plantToBuild = BuildManager.instance.GetPlantToPlant();
+        _plant = (GameObject)Instantiate(plantToBuild, transform.position, transform.rotation);
     }
 
     void OnMouseExit() {

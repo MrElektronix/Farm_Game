@@ -13,6 +13,8 @@ public class BuildManager : MonoBehaviour {
     }
 
     public GameObject tomatoPlant;
+    public GameObject tomatoPlantTimer;
+
     public GameObject carrotPlant;
     public GameObject strawberryPlant;
     public GameObject cornPlant;
@@ -28,5 +30,17 @@ public class BuildManager : MonoBehaviour {
     public void SetPlantToPlant(GameObject plant)
     {
         plantToPlant = plant;
+    }
+
+    private GameObject timerToTime;
+
+    public GameObject GetTimerToTime()
+    {
+        return timerToTime;
+    }
+
+    public void SetTimerToTime(GameObject timing)
+    {
+        timerToTime = timing;
     }
 }
