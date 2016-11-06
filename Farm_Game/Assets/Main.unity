@@ -137,6 +137,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -416,6 +421,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -466,6 +476,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -521,6 +536,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1131,6 +1151,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1322,6 +1347,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1479,6 +1509,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1603,6 +1638,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1788,6 +1828,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -1843,6 +1888,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -2044,6 +2094,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -2178,6 +2233,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -2228,6 +2288,11 @@ Prefab:
       propertyPath: m_Name
       value: Node (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -2528,7 +2593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ba435e129207834e8122b2af5be69b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _TomatoText: {fileID: 0}
+  _TomatoText: {fileID: 114000011737783482, guid: f5bec426644a98f48bdc02ea4fe1b677,
+    type: 2}
   _CarrotText: {fileID: 1528988557}
   _StrawberryText: {fileID: 2023916406}
   _CornText: {fileID: 565365092}
@@ -2764,6 +2830,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0
@@ -2885,28 +2956,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 4000011011326506, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.3
-      objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     - target: {fileID: 1000010460093208, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
       propertyPath: m_Name
       value: Node (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
-        type: 2}
-      propertyPath: hoverColor.r
-      value: 0.41176468
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
-        type: 2}
-      propertyPath: hoverColor.g
-      value: 0.39662626
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
-        type: 2}
-      propertyPath: hoverColor.b
-      value: 0.39662626
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
@@ -2973,6 +3030,11 @@ Prefab:
       propertyPath: hoverColor.b
       value: 0.39662626
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012437880202, guid: d757bb09e1e956341b1b98b1761e1cf8,
+        type: 2}
+      propertyPath: canvasParent
+      value: 
+      objectReference: {fileID: 217426677}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d757bb09e1e956341b1b98b1761e1cf8, type: 2}
   m_IsPrefabParent: 0

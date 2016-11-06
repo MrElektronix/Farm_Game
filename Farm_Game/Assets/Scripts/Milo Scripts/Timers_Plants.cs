@@ -25,6 +25,7 @@ public class Timers_Plants : MonoBehaviour {
         CarrotTime -= Timer(CarrotTime);
         StrawberryTime -= Timer(StrawberryTime);
         CornTime -= Timer(CornTime);
+
     }
     /*
     float RoundTimer(float plantTime)

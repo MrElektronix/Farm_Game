@@ -11,6 +11,7 @@ public class ChoosePlants : MonoBehaviour {
 
     public void chooseTomatoSeeds() {
         buildManager.SetPlantToPlant(buildManager.tomatoPlant);
+        buildManager.SetTimerToTime(buildManager.tomatoPlantTimer);
     }
 
     public void chooseCarrotSeeds()

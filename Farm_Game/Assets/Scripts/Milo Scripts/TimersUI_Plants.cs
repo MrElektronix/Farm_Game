@@ -33,6 +33,7 @@ public class TimersUI_Plants : MonoBehaviour {
         {
             case "Tomato":
                 _TomatoText.text = "Tomato " + timerplants.TomatoTime.ToString("0") + " sec.";
+                Debug.Log(timerplants.TomatoTime.ToString("0"));
                 break;
             case "Carrot":
                 _CarrotText.text = "Carrot: " + timerplants.CarrotTime.ToString("0" ) + " sec.";
