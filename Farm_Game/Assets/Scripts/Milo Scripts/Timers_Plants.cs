@@ -54,7 +54,7 @@ public class Timers_Plants : MonoBehaviour {
         }
 
         plantTime -= Time.deltaTime;
-
+        
         /*
         minutes = Mathf.Floor(plantTime / 60);
         seconds = plantTime % 60;

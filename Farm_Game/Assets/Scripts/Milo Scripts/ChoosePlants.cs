@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+/// <summary>
+/// This class lets u choose the different seeds to plant;
+/// </summary>
 
 public class ChoosePlants : MonoBehaviour {
 
@@ -10,22 +13,21 @@ public class ChoosePlants : MonoBehaviour {
     }
 
     public void chooseTomatoSeeds() {
-        buildManager.SetPlantToPlant(buildManager.tomatoPlant);
-        buildManager.SetTimerToTime(buildManager.tomatoPlantTimer);
+        buildManager.SetSeedToPlant(buildManager.Seeds[0]);
     }
 
     public void chooseCarrotSeeds()
     {
-        buildManager.SetPlantToPlant(buildManager.carrotPlant);
+        buildManager.SetSeedToPlant(buildManager.Seeds[1]);
     }
 
     public void chooseStrawberrySeeds()
     {
-        buildManager.SetPlantToPlant(buildManager.strawberryPlant);
+        buildManager.SetSeedToPlant(buildManager.Seeds[2]);
     }
 
     public void chooseCornSeeds()
     {
-        buildManager.SetPlantToPlant(buildManager.cornPlant);
+        buildManager.SetSeedToPlant(buildManager.Seeds[3]);
     }
 }

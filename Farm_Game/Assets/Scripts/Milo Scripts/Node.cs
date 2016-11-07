@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+/// <summary>
+/// this class handles the functionality of the nodes in the game;
+/// </summary>
 
 public class Node : MonoBehaviour {
+    BuildManager buildManager;
 
     public Color hoverColor;
     public GameObject canvasParent;
@@ -12,8 +16,6 @@ public class Node : MonoBehaviour {
 
     private Renderer _rend;
     private Color _startColor;
-
-    BuildManager buildManager;
 
     void Start() {
         _rend = GetComponent<Renderer>();
@@ -27,7 +29,7 @@ public class Node : MonoBehaviour {
             return;
         }
 
-        if (buildManager.GetPlantToPlant() == null)
+        if (buildManager.GetSeedToPlant() == null)
         {
             return;
         }
@@ -41,7 +43,7 @@ public class Node : MonoBehaviour {
             return;
         }
 
-        if (buildManager.GetPlantToPlant() == null)
+        if (buildManager.GetSeedToPlant() == null)
         {
             return;
         }
@@ -52,12 +54,14 @@ public class Node : MonoBehaviour {
             return;
         }
 
-        GameObject plantToBuild = BuildManager.instance.GetPlantToPlant();
+        GameObject plantToBuild = BuildManager.instance.GetSeedToPlant();
         _plant = (GameObject)Instantiate(plantToBuild, transform.position, transform.rotation);
 
+        /*
         GameObject timetoBuild = BuildManager.instance.GetTimerToTime();
         _time = (GameObject)Instantiate(timetoBuild);
         _time.transform.SetParent(canvasParent.transform);
+        */
 
 
     }

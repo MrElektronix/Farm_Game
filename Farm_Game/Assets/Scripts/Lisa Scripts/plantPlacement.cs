@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.EventSystems;
 
 public class plantPlacement : MonoBehaviour {
-
+    /*
     private void OnMouseOver()
     {
 
@@ -23,12 +23,13 @@ public class plantPlacement : MonoBehaviour {
 
         GameObject tower = (GameObject)Instantiate(gameManager.Instance.clickedBTN.PlantPrefab, transform.position, Quaternion.identity);
        
-        //tower.GetComponent<SpriteRenderer>().sortingOrder = GridPosition.Y;
+        tower.GetComponent<SpriteRenderer>().sortingOrder = GridPosition.Y;
 
-        //tower.transform.SetParent(transform);
+        tower.transform.SetParent(transform);
 
 
         gameManager.Instance.BuyPlant();
 
     }
+    */
 }

@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 
-public class BuildManager : MonoBehaviour {
+public class BuildManager : MonoBehaviour
+{
     public static BuildManager instance;
 
-    void Awake() {
+    void Awake()
+    {
         if (instance != null)
         {
             Debug.LogError("More than one BuildManager in scene!");
@@ -12,26 +14,21 @@ public class BuildManager : MonoBehaviour {
         instance = this;
     }
 
-    public GameObject tomatoPlant;
-    public GameObject tomatoPlantTimer;
+    public GameObject[] Seeds;
 
-    public GameObject carrotPlant;
-    public GameObject strawberryPlant;
-    public GameObject cornPlant;
+    private GameObject seedsToPlant;
 
-
-    private GameObject plantToPlant;
-
-    public GameObject GetPlantToPlant()
+    public GameObject GetSeedToPlant()
     {
-        return plantToPlant;
+        return seedsToPlant;
     }
 
-    public void SetPlantToPlant(GameObject plant)
+    public void SetSeedToPlant(GameObject Seeds)
     {
-        plantToPlant = plant;
+        seedsToPlant = Seeds;
     }
 
+    /*
     private GameObject timerToTime;
 
     public GameObject GetTimerToTime()
@@ -43,4 +40,6 @@ public class BuildManager : MonoBehaviour {
     {
         timerToTime = timing;
     }
+    */
 }
+
