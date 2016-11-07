@@ -24,10 +24,7 @@ public class Node : MonoBehaviour {
     }
 
     void OnMouseEnter() {
-        if (EventSystem.current.IsPointerOverGameObject())
-        {
-            return;
-        }
+        
 
         if (buildManager.GetSeedToPlant() == null)
         {
@@ -38,11 +35,7 @@ public class Node : MonoBehaviour {
 
     void OnMouseDown() {
 
-        if (EventSystem.current.IsPointerOverGameObject())
-        {
-            return;
-        }
-
+        
         if (buildManager.GetSeedToPlant() == null)
         {
             return;
