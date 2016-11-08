@@ -10839,7 +10839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bbf32b34b0584f4f8fead4adff6c9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1000010474354296, guid: 110f96b588c915a4cbc6e7eca837b425, type: 2}
 --- !u!136 &136000013859639512
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -10861,7 +10861,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 105016}
   m_Enabled: 1
   m_Radius: 0.5
-  m_Speed: 1
+  m_Speed: 6
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
