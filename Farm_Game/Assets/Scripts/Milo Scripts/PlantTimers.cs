@@ -29,7 +29,6 @@ public class PlantTimers : MonoBehaviour {
             else
             {
                 Times[i] -= Time.deltaTime;
-                 
             }
 
         }
