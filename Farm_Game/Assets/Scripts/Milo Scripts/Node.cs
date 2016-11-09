@@ -12,7 +12,7 @@ public class Node : MonoBehaviour {
     public GameObject canvasParent;
 
     private GameObject _plant;
-    private GameObject _time;
+    private GameObject _button;
 
     private Renderer _rend;
     private Color _startColor;
@@ -54,15 +54,27 @@ public class Node : MonoBehaviour {
             return;
         }
 
+        //get a plant from the buildmanager. Instantiate plant.
         GameObject plantToBuild = BuildManager.instance.GetSeedToPlant();
         _plant = (GameObject)Instantiate(plantToBuild, transform.position, transform.rotation);
+        Timer timer = _plant.AddComponent<Timer>();
+        timer.SetTimer(40);
+
+        //get a button from the buildmanager. Instantiate button
+        GameObject buttonToBuild = BuildManager.instance.GetButton();
+        _button = (GameObject)Instantiate(buttonToBuild, transform.position, transform.rotation);
+        _button.transform.SetParent(canvasParent.transform);
+        TimerUI timerui = _button.AddComponent<TimerUI>();
+
+        //give a reference to buttonscript (timerUI) to the timer
+        timer.timerButtonText = timerui;
+
+
 
         
-        GameObject timetoBuild = BuildManager.instance.GetTimerToTime();
-        _time = (GameObject)Instantiate(timetoBuild);
-        _time.transform.SetParent(canvasParent.transform);
+       
         
-        
+
 
 
     }

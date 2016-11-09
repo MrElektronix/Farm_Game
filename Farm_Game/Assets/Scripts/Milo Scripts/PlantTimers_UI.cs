@@ -21,7 +21,7 @@ public class PlantTimers_UI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        planttimers = PlantTimers.instance;
+        
 
 	}
 	
@@ -32,16 +32,16 @@ public class PlantTimers_UI : MonoBehaviour {
             switch (i)
             {
                 case 0:
-                    TextToDisplay[i].text = "Tomato: " + planttimers.Times[i].ToString("0") + " sec.";
+                    TextToDisplay[i].text = "Tomato: " +  " sec.";
                     break;
                 case 1:
-                    TextToDisplay[i].text = "Carrot " + planttimers.Times[i].ToString("0") + " sec.";
+                    TextToDisplay[i].text = "Carrot " +  " sec.";
                     break;
                 case 2:
-                    TextToDisplay[i].text = "Strawberry: " + planttimers.Times[i].ToString("0") + " sec.";
+                    TextToDisplay[i].text = "Strawberry: " + " sec.";
                     break;
                 case 3:
-                    TextToDisplay[i].text = "Corn: " + planttimers.Times[i].ToString("0") + " sec.";
+                    TextToDisplay[i].text = "Corn: " +  " sec.";
                     break;
                 default:
                     break;

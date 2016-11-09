@@ -609,6 +609,11 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 120
       objectReference: {fileID: 0}
+    - target: {fileID: 224000011195787622, guid: 7a9b3b727bde7064b8b587f70028eee1,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a9b3b727bde7064b8b587f70028eee1, type: 2}
   m_IsPrefabParent: 0
@@ -622,7 +627,12 @@ Prefab:
     - target: {fileID: 114000010367564432, guid: 71a91ad6c8072ff4bb13afb5ffd94556,
         type: 2}
       propertyPath: timing.Array.size
-      value: 4
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010367564432, guid: 71a91ad6c8072ff4bb13afb5ffd94556,
+        type: 2}
+      propertyPath: button.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000010180134352, guid: 71a91ad6c8072ff4bb13afb5ffd94556, type: 2}
       propertyPath: m_LocalPosition.x
@@ -674,6 +684,18 @@ Prefab:
     - target: {fileID: 114000010367564432, guid: 71a91ad6c8072ff4bb13afb5ffd94556,
         type: 2}
       propertyPath: timing.Array.data[0]
+      value: 
+      objectReference: {fileID: 1000011055705514, guid: f5bec426644a98f48bdc02ea4fe1b677,
+        type: 2}
+    - target: {fileID: 114000010367564432, guid: 71a91ad6c8072ff4bb13afb5ffd94556,
+        type: 2}
+      propertyPath: buttonToGet
+      value: 
+      objectReference: {fileID: 1000011055705514, guid: f5bec426644a98f48bdc02ea4fe1b677,
+        type: 2}
+    - target: {fileID: 114000010367564432, guid: 71a91ad6c8072ff4bb13afb5ffd94556,
+        type: 2}
+      propertyPath: button.Array.data[0]
       value: 
       objectReference: {fileID: 1000011055705514, guid: f5bec426644a98f48bdc02ea4fe1b677,
         type: 2}

@@ -5,20 +5,10 @@
 
 public class PlantTimers : MonoBehaviour {
 
-    public static PlantTimers instance;
     public float[] Times;
 
-    void Awake()
-    {
-        if (instance != null)
-        {
-            return;
-        }
-        instance = this;
-    }
-
     // Update is called once per frame
-    public void Update ()
+    void Update ()
     {
         for (int i = 0; i < Times.Length; i++)
         {

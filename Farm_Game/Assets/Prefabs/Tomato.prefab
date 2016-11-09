@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Tomato: 50 sec.'
+  m_Text: 'Tomato: '
 --- !u!114 &114000011884696438
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -15,7 +15,7 @@ public class BuildManager : MonoBehaviour
     }
 
     public GameObject[] Seeds;
-    public GameObject[] timing;
+    public GameObject[] button;
 
     private GameObject seedsToPlant;
 
@@ -29,18 +29,19 @@ public class BuildManager : MonoBehaviour
         seedsToPlant = Seeds;
     }
 
-    
-    private GameObject timerToTime;
+    private GameObject buttonToGet;
 
-    public GameObject GetTimerToTime()
+    public GameObject GetButton()
     {
-        return timerToTime;
+        return buttonToGet;
     }
 
-    public void SetTimerToTime(GameObject timing)
+    public void buttonToSet(GameObject button)
     {
-        timerToTime = timing;
+        buttonToGet = button;
     }
- 
+
+
+
 }
 
