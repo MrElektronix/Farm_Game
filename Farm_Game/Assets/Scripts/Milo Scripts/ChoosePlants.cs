@@ -20,15 +20,18 @@ public class ChoosePlants : MonoBehaviour {
     public void chooseCarrotSeeds()
     {
         buildManager.SetSeedToPlant(buildManager.Seeds[1]);
+        buildManager.buttonToSet(buildManager.button[1]);
     }
 
     public void chooseStrawberrySeeds()
     {
         buildManager.SetSeedToPlant(buildManager.Seeds[2]);
+        buildManager.buttonToSet(buildManager.button[2]);
     }
 
     public void chooseCornSeeds()
     {
         buildManager.SetSeedToPlant(buildManager.Seeds[3]);
+        buildManager.buttonToSet(buildManager.button[3]);
     }
 }
