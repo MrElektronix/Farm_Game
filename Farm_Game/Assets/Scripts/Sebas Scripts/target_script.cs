@@ -21,23 +21,8 @@ public class target_script : MonoBehaviour
         _speed = value;
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-
-      //  if (other.CompareTag("Player"))
-        //{
-          //  PlayerHealth playerhealth = other.GetComponent<PlayerHealth>();
-            //playerhealth.TakeDamage(10f);
-            //Destroy(gameObject);
-        //}
-        //if (other.CompareTag("Enemy"))
-        //{
-          //  EnemyHealth enemyhealth = other.GetComponent<EnemyHealth>();
-           // enemyhealth.TakeDamage(50f);
-            //Destroy(gameObject);
-
-        }
-    }
+    
+}
 
 
 
