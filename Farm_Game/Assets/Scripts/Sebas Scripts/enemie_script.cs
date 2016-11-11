@@ -19,24 +19,13 @@ public class enemie_script : MonoBehaviour
     {
       //  if ()   //als je de player bereikt hebt, stop dan met lopen.
         {
-
         }
         //Debug.Log(target.transform.position);
         _navMeshAgent.SetDestination(target.transform.position);
         transform.LookAt(target.transform.position);
-
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-
-        if (other.CompareTag("Player"))
-        {
-            PlayerHealth playerhealth = other.GetComponent<PlayerHealth>();
-            playerhealth.TakeDamage(10f);
-            Destroy(gameObject);
-        }
-    }
+   
         void OnCollisionEnter(Collision coll)
     {
         Debug.Log(coll.gameObject.tag);
