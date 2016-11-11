@@ -9,10 +9,16 @@ public class sceneManager : MonoBehaviour {
         SceneManager.LoadScene(_startGame);
     }
 
-    public void Instructions(string _Instructions)
+    public void mainMenu(string _mainmenu)
     {
-        SceneManager.LoadScene(_Instructions);
+        SceneManager.LoadScene(_mainmenu);
     }
+
+    public void Instructions(string _instructions)
+    {
+        SceneManager.LoadScene(_instructions);
+    }
+
 
     public void Quitgame()
     {

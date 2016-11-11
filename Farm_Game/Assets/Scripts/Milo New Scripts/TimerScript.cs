@@ -7,7 +7,7 @@ public class TimerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        time = 10;
+        time = 50;
     }
 	
 	// Update is called once per frame

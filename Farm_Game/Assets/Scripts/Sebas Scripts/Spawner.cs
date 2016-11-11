@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Spawner : MonoBehaviour
 {
@@ -10,13 +11,17 @@ public class Spawner : MonoBehaviour
     private float _time;
     private int _lives;
     private bool Spawning = true;
+    private float SpawnTime;
+    private Object Enemie;
+    private int wave;
 
 
     void Start()
     {
+        SpawnTime = 2.5f;
         if (Spawning)
         {
-            InvokeRepeating("Spawn", 2,4 );
+            InvokeRepeating("Spawn", 1, SpawnTime);
         }
     }
 
@@ -26,7 +31,6 @@ public class Spawner : MonoBehaviour
         player = GameObject.Find("Player");
         _time = gamemaster.GetComponent<TimerScript>().time;
         _lives = player.GetComponent<HealthScript>().Lives;
-        
     }
 
 
@@ -36,13 +40,16 @@ public class Spawner : MonoBehaviour
         if (_time <= 0 || _lives <= 0)
         {
             Debug.Log("Time's Up");
+            Destroy(Enemie);
             Spawning = false;
+            SceneManager.LoadScene(2);
         }
         else
         {
-            Instantiate(enemy, spawner.position, spawner.rotation);
+            Enemie = Instantiate(enemy, spawner.position, spawner.rotation);
         }
        
 
     }
+
 }
