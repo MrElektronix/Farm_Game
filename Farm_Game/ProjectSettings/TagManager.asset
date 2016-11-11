@@ -8,6 +8,7 @@ TagManager:
   - Player2
   - Cube
   - TimeController
+  - Enemy
   layers:
   - Default
   - TransparentFX

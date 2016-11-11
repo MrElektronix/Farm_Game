@@ -17,4 +17,14 @@ public class HealthScript : MonoBehaviour {
             Lives = 0;
         }
 	}
+
+    void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("Enemy"))
+        {
+            Lives -= 10;
+            Destroy(other.gameObject);
+        }
+    }
 }

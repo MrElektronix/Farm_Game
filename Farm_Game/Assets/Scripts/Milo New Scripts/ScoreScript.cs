@@ -4,14 +4,15 @@ using System.Collections;
 public class ScoreScript : MonoBehaviour {
     public float Score;
     GameObject gamemaster;
+    GameObject player;
     private float _time;
     private int _lives;
-    private bool gameOver = false;
 
     // Use this for initialization
     void Start () {
         Score = 0;
         gamemaster = GameObject.Find("GameMaster");
+        player = GameObject.Find("Player");
     }
 	
 	// Update is called once per frame
@@ -22,8 +23,8 @@ public class ScoreScript : MonoBehaviour {
     public void CalculateScore()
     {
         _time = gamemaster.GetComponent<TimerScript>().time;
-        _lives = gamemaster.GetComponent<HealthScript>().Lives;
-        if (_time <= 0)
+        _lives = player.GetComponent<HealthScript>().Lives;
+        if (_time <= 0 )
         {
             
         }
@@ -34,6 +35,6 @@ public class ScoreScript : MonoBehaviour {
        
 
 
-        Debug.Log("Score: " + Score);
+        //Debug.Log("Score: " + Score);
     }
 }

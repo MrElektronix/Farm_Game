@@ -16,7 +16,6 @@ public class Timer_UI : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
         timertext.text = "Time: " + gamemaster.GetComponent<TimerScript>().time.ToString("0");
     }
 }

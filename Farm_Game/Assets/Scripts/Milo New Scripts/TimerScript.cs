@@ -4,7 +4,6 @@ using System.Collections;
 public class TimerScript : MonoBehaviour {
 
     public float time;
-    GameObject gamemaster;
 
 	// Use this for initialization
 	void Start () {

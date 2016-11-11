@@ -28,7 +28,7 @@ GameObject:
   - 195: {fileID: 195000010245241564}
   m_Layer: 0
   m_Name: 2e player
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  PlayerHealth: 100
 --- !u!195 &195000010245241564
 NavMeshAgent:
   m_ObjectHideFlags: 1
