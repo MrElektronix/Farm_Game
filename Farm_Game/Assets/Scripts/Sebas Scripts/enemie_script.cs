@@ -7,7 +7,7 @@ public class enemie_script : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     private GameObject _playerObj;
     public GameObject target;
-
+    public float PlayerHealth = 100f;
     void Start()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -26,7 +26,18 @@ public class enemie_script : MonoBehaviour
         transform.LookAt(target.transform.position);
 
     }
-    void OnCollisionEnter(Collision coll)
+
+    void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("Player"))
+        {
+            PlayerHealth playerhealth = other.GetComponent<PlayerHealth>();
+            playerhealth.TakeDamage(10f);
+            Destroy(gameObject);
+        }
+    }
+        void OnCollisionEnter(Collision coll)
     {
         Debug.Log(coll.gameObject.tag);
 
