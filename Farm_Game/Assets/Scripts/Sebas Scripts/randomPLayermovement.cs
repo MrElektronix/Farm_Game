@@ -3,10 +3,10 @@ using System.Collections;
 
 public class randomPLayermovement : MonoBehaviour
 {
-    private NavMeshAgent agent;
+    private UnityEngine.AI.NavMeshAgent agent;
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         
     }
     void Update()
